@@ -6,4 +6,4 @@ This is a simple template / folder structure for getting PHPUnit to work with Dr
 
 2. When running the unit tests from the command line you should be in the Drupal root directory i.e. *not* the unittests directory.
 
-The idea for creating this repository came after reading Kristian Nissen's blog post title "Drupal 6 PHPUnit testing setup": http://www.phpunit.de/manual/current/en/installation.html
+The idea for creating this repository came after reading Kristian Nissen's blog post title "Drupal 6 PHPUnit testing setup": http://kristiannissen.wordpress.com/2009/12/08/drupal-6-phpunit-testing-setup/
