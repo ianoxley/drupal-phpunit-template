@@ -8,9 +8,6 @@
  * the Drupal installation though
  *
  * @author Ian Oxley
- * @version $Id$
- * @copyright __MyCompanyName__, 6 July, 2010
- * @package default
  **/
 
 include_once 'includes' . DIRECTORY_SEPARATOR . 'bootstrap.inc';
