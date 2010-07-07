@@ -4,6 +4,10 @@ This is a simple template / folder structure for getting PHPUnit to work with Dr
 
 1. The *unittests* folder should be added to the root of your Drupal installation. It is assumed that you already have PHPUnit installed - if not you can find instructions on how to obtain it from http://www.phpunit.de/manual/current/en/installation.html
 
-2. When running the unit tests from the command line you should be in the Drupal root directory i.e. *not* the unittests directory.
+2. When running the unit tests from the command line you should be in the Drupal root directory i.e. *not* the unittests directory. For example, to run the tests in ExampleTest.php:
+
+$ phpunit ExampleTest unittests/ExampleTest.php
+
+3. A .htaccess file is included in the *unittests* folder to prevent anyone browsing to this folder
 
 The idea for creating this repository came after reading Kristian Nissen's blog post title "Drupal 6 PHPUnit testing setup": http://kristiannissen.wordpress.com/2009/12/08/drupal-6-phpunit-testing-setup/
